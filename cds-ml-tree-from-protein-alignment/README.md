@@ -5,7 +5,6 @@
 * Aligns coding sequence to protein sequence to make a codon alignment using `Pal2nal`.
 * Finds the best fitting substitution model for the alignment using `Jmodeltest2`.
 * Generates an ML tree(bootstrap 1000) using `PhyML`. 
-<br /> <br /> <br />
 
 Requirements in $PATH:
 * trimal-v1.2
@@ -14,24 +13,25 @@ Requirements in $PATH:
 * Jmodeltest-2.1.10 
 * pal2nal.pl
 
+<br /> <br /> <br />
 
 		USAGE:  ./protein_cds_tree_ml.sh  sequences.fasta 
 
 <br /> <br /> <br />
 Notes on usage:
 
-The input file should contain both cds and protein sequences in order, separated by a newline, eg:<br /> <br /> <br />
+The input file should contain both cds and protein sequences in order, separated by a newline, eg:
 
 
-			>1
-			ATGTGTAGAAGCTAGATCAGATCG
-			>2
-			ATGTGTAGTAGCTAGATCAGATCG
+	>1
+	ATGTGTAGAAGCTAGATCAGATCG
+	>2
+	ATGTGTAGTAGCTAGATCAGATCG
 
-			>1
-			MCRSLIRS
-			>2
-			MCSSLIRS
+	>1
+	MCRSLIRS
+	>2
+	MCSSLIRS
 
  
 
