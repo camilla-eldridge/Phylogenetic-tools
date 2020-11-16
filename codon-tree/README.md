@@ -1,6 +1,6 @@
 # Codon tree 
 
-`protein_cds_tree_ml.sh`:<br /> <br /> <br />
+`codon_tree.sh`:<br /> <br /> <br />
 
 * Aligns coding sequence to protein sequence to make a codon alignment using `Pal2nal`.
 * Finds the best fitting substitution model for the alignment using `Jmodeltest2`.
@@ -16,7 +16,7 @@ Requirements in $PATH:
 
 <br /> <br /> <br />
 
-		USAGE:  ./protein_cds_tree_ml.sh  sequences.fasta 
+		USAGE:  ./codon_tree.sh  sequences.fasta 
 
 <br /> <br /> <br />
 Notes on usage:
